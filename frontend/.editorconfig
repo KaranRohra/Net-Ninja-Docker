@@ -1,0 +1,18 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# Top-most EditorConfig file
+root = true
+
+# Set max line width to 160 characters
+[*]
+max_line_length = 160
+
+# Use single quotes for strings
+[*.{js,jsx,ts,tsx,html,css,scss}]
+quote_type = single
+
+# Use semicolons as statement terminators
+[*.{js,jsx,ts,tsx}]
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
